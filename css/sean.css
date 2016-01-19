@@ -132,6 +132,22 @@ path#middle {
 }
 /*/Nav Hamburger */
 
+/* external nav */
+.external-link-buttons
+{
+	position: absolute;
+	right: 10px;
+	top: 08px;
+}
+
+.external-link-buttons a
+{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/*/ external nav */
+
 .center-headers h1, h2, h3, h4, h5, h6
 {
 	text-align: center;

@@ -26,18 +26,38 @@
           </svg>
           <span id="menuword">Menu</span>
       </div>
+      <div class="external-link-buttons hidden-xs" id="elb-full">
+        <a href="https://www.linkedin.com/in/seanfeil" style="text-decoration:none;"><span><img src="content/Linkedin.png" width="20" height="20" alt="View Sean Feil's LinkedIn profile" style="vertical-align:middle;" border="0"></span></a>
+
+        <a href="https://github.com/resorath" style="text-decoration:none;"><span><img src="content/GitHub-Mark-Light-32px.png" width="20" height="20" alt="View Sean Feil's GitHub repositories" style="vertical-align:middle;" border="0"></span></a>
+
+
+        <a href="https://stackexchange.com/users/227625/" style="text-decoration:none;"><span><img src="content/so-icon.png" width="20" height="20" alt="View Sean Feil's Stack Exchange profile" style="vertical-align:middle;" border="0"></span></a>
+
+      </div>
     </header>
 
     <nav id="menu" class="nav-hidden">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/portfolio">Web portfolio</a></li>
-          <li><a href="/skills">Technologies and languages</a></li>
-          <li><a href="/resume">Resume / CV</a></li>
-          <li><a href="/photography">Photography</a></li>
-          <li><a href="http://blog.seanfeil.com">Technical blog</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
+
+      <div class="external-link-buttons visible-xs-block" id="elb-mobile">
+        <a href="https://www.linkedin.com/in/seanfeil" style="text-decoration:none;"><span><img src="content/Linkedin.png" width="20" height="20" alt="View Sean Feil's LinkedIn profile" style="vertical-align:middle;" border="0"></span></a>
+
+        <a href="https://github.com/resorath" style="text-decoration:none;"><span><img src="content/GitHub-Mark-Light-32px.png" width="20" height="20" alt="View Sean Feil's GitHub repositories" style="vertical-align:middle;" border="0"></span></a>
+
+
+        <a href="https://stackexchange.com/users/227625/" style="text-decoration:none;"><span><img src="content/so-icon.png" width="20" height="20" alt="View Sean Feil's Stack Exchange profile" style="vertical-align:middle;" border="0"></span></a>
+
+      </div>
+
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/portfolio">Web portfolio</a></li>
+        <li><a href="/skills">Technologies and languages</a></li>
+        <li><a href="/resume">Resume / CV</a></li>
+        <li><a href="/photography">Photography</a></li>
+        <li><a href="http://blog.seanfeil.com">Technical blog</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
     </nav>
 
     <main id="panel">
