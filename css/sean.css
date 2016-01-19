@@ -78,12 +78,21 @@ html, body
 
 }
 
+#menuword
+{
+	position: absolute;
+	top: 28px;
+	left: 65px;
+	font-size: 0.8em;
+	color: #EAEAEA;
+}
+
 /*/ Nav */
 
 /* Nav hamburger */
 #navhamburger
 {
-	width: 75px;
+	width: 200px;
 	height: 75px;
 	position: absolute;
 	top: -15px;
@@ -131,7 +140,8 @@ path#middle {
 
 .thin-container
 {
-	max-width: 500px;
+	max-width: 550px;
+	padding: 25px;
 }
 
 
@@ -171,7 +181,7 @@ path#middle {
 #selfportrait
 {
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 #panel
@@ -192,6 +202,22 @@ path#middle {
 	color: #FFFFFF;
 	margin-top: 50px;
 	margin-bottom: 200px;
+	position: relative;
+
+	animation: idfadedown 1s ease-in forwards;
+	-webkit-animation: idfadedown 1s;
+}
+
+@keyframes idfadedown
+{
+  from {top: -100px; opacity: 0.2;}
+  to {top: 0px; opacity: 1;}
+}
+
+@-webkit-keyframes idfadedown
+{
+  from {top: -100px; opacity: 0.2;}
+  to {top: 0px; opacity: 1;}
 }
 
 footer
@@ -208,6 +234,14 @@ footer
 	#identitycontent
 	{
 		margin-top: 0px;
+		padding: 10px;
+		animation: none;
+		-webkit-animation: none;
+	}
+
+	#menuword
+	{
+		display: none;
 	}
 
 }

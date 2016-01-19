@@ -24,6 +24,7 @@
             <path d="M300,320 L540,320" id="middle"></path>
             <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
           </svg>
+          <span id="menuword">Menu</span>
       </div>
     </header>
 
@@ -32,7 +33,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="/portfolio">Web portfolio</a></li>
           <li><a href="/skills">Technologies and languages</a></li>
-          <li><a href="/resume">Resume</a></li>
+          <li><a href="/resume">Resume / CV</a></li>
           <li><a href="/photography">Photography</a></li>
           <li><a href="http://blog.seanfeil.com">Technical blog</a></li>
           <li><a href="/contact">Contact</a></li>
@@ -47,7 +48,7 @@
 
         <h1>Hi, I'm Sean</h1>
 
-        <p>I'm a software developer, specializing in writing web applications. I've been interested in writing software since elementary school, and I wrote my first web page in grade 6. It was about Star Wars.</p>
+        <p>I'm a software developer, specializing in creating web applications. I've been interested in writing software since elementary school, and I wrote my first web page in grade 6. It was about Star Wars.</p>
 
         <h2>Web</h2>
 
@@ -69,9 +70,17 @@
         <p class="cta-link"><a href="/resume">Resume</a></p>
 
 
+
+        <h2>Teaching</h2>
+
+        <p>I like teaching web and software development. I have taught in a classroom as an instructor and as a private tutor. The most enjoyable moment is when difficult problems finally "click" for a student.</p>
+
+        <p class="cta-link"><a href="/cv">Curriculum Vitae</a></p>
+
+
         <h2>Freelance</h2>
 
-         <p>I am currently employed full time at the University of Calgary, however in my free time I'm available for hire as a freelance web developer. If you have a project you want to discuss, send me a note.</p>
+         <p>I am currently employed full time at the University of Calgary, however in my free time I'm available for hire as a freelance web developer or instructor. If you have a project you want to discuss, send me a note.</p>
 
         <p class="cta-link"><a href="/contact">Contact</a></p>
 

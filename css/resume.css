@@ -1,0 +1,79 @@
+html, body {
+	height: 100%;
+	color: #121212;
+	background-color: #DDDDDD;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Amaranth', sans-serif;
+}
+
+p{
+	line-height: 1em;
+}
+
+li {
+	line-height: 1.2em;
+	padding-bottom: 20px;
+
+}
+
+ul
+{
+	padding-top: 15px;
+	list-style-type: circle;
+}
+
+#employmenthistory > div
+{
+	margin-top: 3em;
+}
+
+.resume-table
+{
+	margin-top: 50px;
+
+}
+
+#bottomspacer
+{
+	height: 300px;
+}
+
+.resume-leader
+{
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #666666;
+
+}
+
+.resume-title
+{
+	font-weight: bold;
+}
+
+.resume-date
+{
+	color: #555555;
+}
+
+.resume-location
+{
+	font-style: italic;
+}
+
+@media (max-width: 767px){
+	ul {
+
+		margin-left: -20px;
+
+	}
+
+	#bottomspacer
+	{
+		height: 30px;
+	}
+
+}
