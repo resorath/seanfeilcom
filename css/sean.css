@@ -3,11 +3,12 @@
 
 html, body
 {
-	height: 100%;
 	width: 100%;
 	margin: 0px;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #000000;
+	
+	background-color: #CCCCCC;
+	color: #000000;
 }
 
 /* top bar */
@@ -32,6 +33,11 @@ html, body
 	font-family: 'Roboto Condensed', 'Open Sans', sans-serif;
 
 	padding-top: 0.5em;
+}
+
+#name a
+{
+	color: #FFFFFF;
 }
 
 
@@ -92,7 +98,7 @@ html, body
 /* Nav hamburger */
 #navhamburger
 {
-	width: 200px;
+	width: 150px;
 	height: 75px;
 	position: absolute;
 	top: -15px;
@@ -151,13 +157,17 @@ path#middle {
 .center-headers h1, h2, h3, h4, h5, h6
 {
 	text-align: center;
-	color: #EAEAEA;
 }
 
 .thin-container
 {
 	max-width: 550px;
 	padding: 25px;
+}
+
+.container-topadjust
+{
+	margin-top: 100px;
 }
 
 
@@ -216,7 +226,7 @@ path#middle {
 {
 	background-color: rgba(0, 0, 0, 0.8);
 	color: #FFFFFF;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-bottom: 200px;
 	position: relative;
 
@@ -240,6 +250,54 @@ footer
 {
 }
 
+.resume-leader
+{
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #333333;
+
+}
+
+.resume-education-title
+{
+}
+
+.employmentjob
+{
+	margin-top: 40px;
+}
+
+.resume-education-leader
+{
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.resume-title
+{
+	font-weight: bold;
+}
+
+.resume-table
+{
+	margin-top: 60px;
+}
+
+.resume-date
+{
+	color: #555555;
+}
+
+.resume-location
+{
+	font-style: italic;
+}
+
+#resume-container
+{
+	margin-top: 80px;
+}
+
 @media only screen and (max-device-width : 736px) {
 
 	h2
@@ -253,6 +311,11 @@ footer
 		padding: 10px;
 		animation: none;
 		-webkit-animation: none;
+	}
+
+	#navhamburger
+	{
+		width: 120px;
 	}
 
 	#menuword
