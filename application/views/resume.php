@@ -12,7 +12,7 @@
           <li>Software developer, specializing in web; proficient with modern languages, technologies, techniques, and paradigms.</li>
           <li>Project manager; with a strong ability to transform business requirements into a tested, finished solution with focus on quality assurance and user acceptance testing.</li>
           <li>User experience designer; working closely with business units to create usable, efficient user interfaces.</li>
-          
+
         </ul>
 
       </div>
@@ -167,6 +167,29 @@
 
         </div>
 
+
+        <div id="conted" class="employmentjob">
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-title">Summer Camp Instructor, Continuing Education</p>
+            </div>
+
+            <div class="col-sm-3">
+              <p class="resume-date">June 2007 — August 2007</p>
+            </div>
+          </div>
+
+          <p class="resume-location">University of Calgary, Calgary AB</p>
+
+          <ul>
+            <li>Taught junior high students the basics of 2D and 3D game programming.</li>
+            <li>Students built a real game 3D game in Dark Basic over an intensive 2-week program</li>
+
+          </ul>
+
+        </div>
+
       </div>
 
       <div id="education" class="resume-table">
@@ -212,7 +235,7 @@
           <p class="resume-education-leader">PeopleSoft Development</p>
           <div class="row">
             <div class="col-sm-9">
-              <p class="resume-education-title">PeopleTols I & II - TAM Training, Albuquerque NM</p>
+              <p class="resume-education-title">PeopleTools I &amp; II - TAM Training, Albuquerque NM</p>
             </div>
 
             <div class="col-sm-3">

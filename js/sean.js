@@ -12,3 +12,11 @@ $('#navhamburger').click(function(){
 
 
 });
+
+if($('#portfolio-masonry').length > 0)
+{
+	$('#portfolio-masonry').masonry({
+		itemSelector : '.portfolio-item',
+		columnWidth: 0
+	});
+}

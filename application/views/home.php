@@ -1,4 +1,1 @@
-
-<main id="panel">
-
-</main>
+<main id="panel"></main>
