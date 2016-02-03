@@ -349,6 +349,54 @@ footer
 	font-style: italic;
 }
 
+/* contact form */
+
+#contactcontent
+{
+	margin-top: 50px;
+	margin-bottom: 200px;
+	position: relative;
+}
+
+.spacious-form-group
+{
+	margin-top: 50px;
+}
+
+.sdoffset
+{
+	position: absolute;
+	left: -9999px;
+}
+
+.zerowidthfade
+{
+	width: 0px;
+	opacity: 0;
+	transition: 1.3s;
+}
+
+#sendformcomplete-container
+{
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	width: 100%;
+	display: none;
+}
+
+#sendformcomplete
+{
+	margin: 0 auto;
+	display: table;
+	font-size: 2em;
+}
+
+#sendformcomplete span
+{
+	font-size: 6em;
+}
+
 
 @media only screen and (max-device-width : 415px) {
 
@@ -363,6 +411,19 @@ footer
 		padding: 10px;
 		animation: none;
 		-webkit-animation: none;
+	}
+
+	#contactcontent
+	{
+		margin-top: 30px;
+		padding: 10px;
+		animation: none;
+		-webkit-animation: none;
+	}
+
+	.spacious-form-group
+	{
+		margin-top: 20px;
 	}
 
 	#navhamburger

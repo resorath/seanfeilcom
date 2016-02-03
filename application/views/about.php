@@ -32,7 +32,7 @@
 
         <h2>Teaching</h2>
 
-        <p>I like teaching web and software development. I have taught in a classroom as an instructor and as a private tutor. The most enjoyable moment is when difficult problems finally "click" for a student.</p>
+        <p>I like teaching web and software development. I have taught in a classroom as an instructor and as a private tutor.</p>
 
         <p class="cta-link"><a href="<?=base_url() ?>cv">Curriculum Vitae</a></p>
 
