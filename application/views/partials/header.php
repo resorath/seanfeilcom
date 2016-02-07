@@ -18,7 +18,7 @@
       window.base_url='<?=base_url() ?>'
     </script>
   </head>
-  <body>
+  <body<?php if($this->uri->segment(1) == "skills") { echo(" data-spy=\"scroll\" data-offset=\"150\""); } ?>>
     <header id="topbar">
       <p id="name"><a href="<?=base_url() ?>about">Sean Feil</a></p>
       <div id="navhamburger">

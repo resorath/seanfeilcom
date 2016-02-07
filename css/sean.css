@@ -50,7 +50,7 @@ html, body
 	width: 300px;
 	height: 100%;
 	background-color: #fafafa;
-	z-index: 999;
+	z-index: 888;
 	transition: 0.5s;
 }
 
@@ -170,6 +170,10 @@ path#middle {
 	margin-top: 100px;
 }
 
+.container-topadjust-small
+{
+	margin-top: 40px;
+}
 
 #identitycontent p
 {
@@ -395,6 +399,36 @@ footer
 #sendformcomplete span
 {
 	font-size: 6em;
+}
+
+/* Skills */
+.navbar-fixed-top-offset
+{
+	top: 50px;
+	z-index: 777;
+}
+
+.skillinfo
+{
+	text-align: center;
+	color: #333333;
+	margin-top: 20px;
+}
+
+#skills section
+{
+	min-height: 100vh;
+
+	margin-top: 50px;
+}
+
+#skills section h1
+{
+}
+
+#scrollspy-psuedodiv
+{
+	position: relative;
 }
 
 
