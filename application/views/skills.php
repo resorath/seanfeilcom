@@ -31,6 +31,14 @@
 				<h1>Primary skills</h1>
 				<p class="skillinfo">The primary skills I build my career around. These skills involve training, years of experience, and are put to use in completing major projects in an enterprise environment.</p>
 
+				<div class="skillssupercontainer">
+					<div class="skillcontainer" id="skill-dotnet">
+
+					</div>
+
+
+				</div>
+
 			</section>
 
 			<section id="supportskills">

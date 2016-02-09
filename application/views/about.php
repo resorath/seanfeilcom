@@ -1,5 +1,4 @@
-
-    <main>
+    <main id="panel-about">
 
       <div class="container thin-container center-headers" id="identitycontent">
 
