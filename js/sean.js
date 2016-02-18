@@ -97,6 +97,129 @@ function validateForm(name, fields)
   return true;
 }
 
+/* Skills circles */
+var stroke = 5;
+var trail = 2;
+var duration = 1500;
+var yob = 1985;
+var cy = new Date().getFullYear();
+
+function yfcd(y)
+{
+    return cy - y;
+}
+
+function pyyob(y)
+{
+    return yfcd(y)/(cy-yob) * 1.4;
+}
+
+var circles = new Array();
+
+circles["dotnet"] = new ProgressBar.Circle('#circle-dotnet', {
+    color: '#990099',
+    strokeWidth: stroke,
+    trailWidth: trail,
+    duration: duration,
+    text: {
+        value: '<p class="skillcircle-skill">C# .Net</p><p>'+yfcd(2004)+' years</p>'
+    }
+});
+
+circles["dotnet"].animate(pyyob(2004), function() {})
+
+///
+
+circles["java"] = new ProgressBar.Circle('#circle-java', {
+    color: '#990099',
+    strokeWidth: stroke,
+    trailWidth: trail,
+    duration: duration,
+    text: {
+        value: '<p class="skillcircle-skill">Java</p><p>'+yfcd(2001)+' years</p>'
+    }
+});
+
+circles["java"].animate(pyyob(2001), function() {})
+
+///
+
+circles["php"] = new ProgressBar.Circle('#circle-php', {
+    color: '#990099',
+    strokeWidth: stroke,
+    trailWidth: trail,
+    duration: duration,
+    text: {
+        value: '<p class="skillcircle-skill">PHP</p><p>'+yfcd(1999)+' years</p>'
+    }
+});
+
+circles["php"].animate(pyyob(1999), function() {})
+
+
+///
+
+circles["htmlcss"] = new ProgressBar.Circle('#circle-htmlcss', {
+    color: '#990099',
+    strokeWidth: stroke,
+    trailWidth: trail,
+    duration: duration,
+    text: {
+        value: '<p class="skillcircle-skill">HTML/CSS</p><p>'+yfcd(1996)+' years</p>'
+    }
+});
+
+circles["htmlcss"].animate(pyyob(1996), function() {})
+
+///
+
+circles["javascript"] = new ProgressBar.Circle('#circle-javascript', {
+    color: '#990099',
+    strokeWidth: stroke,
+    trailWidth: trail,
+    duration: duration,
+    text: {
+        value: '<p class="skillcircle-skill">Javascript</p><p>'+yfcd(2003)+' years</p>'
+    }
+});
+
+circles["javascript"].animate(pyyob(2003), function() {})
+
+///
+
+circles["ux"] = new ProgressBar.Circle('#circle-ux', {
+    color: '#990099',
+    strokeWidth: stroke,
+    trailWidth: trail,
+    duration: duration,
+    text: {
+        value: '<p class="skillcircle-skill">UX and HCI</p><p>'+yfcd(2005)+' years</p>'
+    }
+});
+
+circles["ux"].animate(pyyob(2005), function() {})
+
+//
+
+$('.skillcontainer').click(function() {
+
+    var clicked = $(this);
+    $('.skillcontainer').not(this).each(function() {
+        var notclicked = $(this);
+
+        notclicked.css('opacity', 0);
+    });
+
+    window.setTimeout(function() {
+        $('#skillsupportcontainerid').addClass('skillsupportcontainerballoon');
+        $('#skillsupportcontainerid').html($("div[data-contentid='" + clicked.data("circlename") + "']").html());
+    }, 500)
+    //circles[clicked.data("circlename")].animate(0, function() {
+
+});
+
+/* * * * * */
+
 jQuery.fn.shake = function(intShakes, intDistance, intDuration) {
   
     intShakes = intShakes || 10;

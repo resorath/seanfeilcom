@@ -29,13 +29,47 @@
 			<section id="primaryskills">
 
 				<h1>Primary skills</h1>
-				<p class="skillinfo">The primary skills I build my career around. These skills involve training, years of experience, and are put to use in completing major projects in an enterprise environment.</p>
+				<p class="skillinfo">The primary skills I build my career around. These skills involve training, years of experience, and are put to use in completing major projects in an enterprise environment. <strong>Click on a skill to learn more</strong>.</p>
 
 				<div class="skillssupercontainer">
-					<div class="skillcontainer" id="skill-dotnet">
 
+					<div class="row">
+
+						<div class="skillcontainer col-sm-4" id="skill-java" data-circlename="java">
+							<div class="skillcircle" id="circle-java"></div>
+						</div>
+
+						<div class="skillcontainer col-sm-4" id="skill-dotnet" data-circlename="dotnet">
+							<div class="skillcircle" id="circle-dotnet"></div>
+
+						</div>
+
+					
+						<div class="skillcontainer col-sm-4" id="skill-php" data-circlename="php">
+							<div class="skillcircle" id="circle-php"></div>
+
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="skillcontainer col-sm-4" id="skill-htmlcss" data-circlename="htmlcss">
+							<div class="skillcircle" id="circle-htmlcss"></div>
+
+						</div>
+
+						<div class="skillcontainer col-sm-4" id="skill-javascript" data-circlename="javascript">
+							<div class="skillcircle" id="circle-javascript"></div>
+
+						</div>
+
+						<div class="skillcontainer col-sm-4" id="skill-ux" data-circlename="ux">
+							<div class="skillcircle" id="circle-ux"></div>
+
+						</div>
 					</div>
 
+					<div class="skillsupportcontainer" id="skillsupportcontainerid">
+					</div>
 
 				</div>
 
@@ -68,4 +102,10 @@
 		</div>
 
 	</main>
+</div>
+
+<div class="skilldatafodder" data-contentid="java">
+	<h1>Java experience</h1>
+
+	<p>blah blah blah</p>
 </div>

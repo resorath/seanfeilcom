@@ -53,8 +53,7 @@
       </div>
 
       <ul>
-        <li><a href="<?=base_url() ?>">Home</a></li>
-        <li><a href="<?=base_url() ?>about">About me</a></li>
+        <li><a href="<?=base_url() ?>">About me</a></li>
         <li><a href="<?=base_url() ?>portfolio">Web portfolio</a></li>
         <li><a href="<?=base_url() ?>skills">Technologies and languages</a></li>
         <li><a href="<?=base_url() ?>resume">Resume / CV</a></li>

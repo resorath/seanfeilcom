@@ -6,6 +6,8 @@
 
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="js/progressbar.min.js"></script>
+
     <script src="js/sean.js"></script>
   </body>
 </html>
