@@ -8,7 +8,7 @@ html, body
 	overflow: auto;
 	font-family: 'Open Sans', sans-serif;
 	
-	background-color: #FFF1FF;
+	background-color: #FFF1FF; /*#35586C*/
 	color: #000000;
 }
 
@@ -328,26 +328,80 @@ footer
 }
 
 /* Portfolio */
-#portfolio-container
-{
-	margin: 50px;
-}
 
 #portfoliotop
 {
-	margin-top: 80px;
+	max-width: 1800px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	border-bottom: 1px solid grey;
+	background-color: #FFFFFF;
+}
+
+#portfolio-container
+{
+	padding-bottom: 40px;
 }
 
 .portfolio-item
 {
 	background-color: #FFFFFF;
 	display: inline-block;
-	margin: 20px;
+	width: 100%;
+	margin-top: 80px;
 }
 
 .portfolio-feature-image
 {
-	padding: 10px;
+
+}
+
+.portfolio-inline-img
+{
+	width: 100%;
+	
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.portfolio-inline-img img
+{
+	width: 100%;
+	max-width: 1800px;
+	margin: 0 auto;
+}
+
+.portfolio-inline-img-caption
+{
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-style: italic;
+	font-size: 0.9em;
+	text-align: center;
+
+}
+
+.portfolio-story
+{
+	text-align: left;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 1.2em;
+	padding: 40px;
+}
+
+.portfolio-readmore
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: bold;
+	max-width: 95%;
+	margin: 0 auto;
+	margin-top: 10px;
 
 }
 
@@ -522,6 +576,24 @@ footer
 .skillsupportcontainer h1
 {
 	text-align: left;
+	padding-bottom: 30px;
+}
+
+.skillleader
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.skilldatacloser
+{
+	position: absolute;
+	top: 0px;
+	right: 20px;
+	font-size: 3em;
+	cursor: pointer;
 }
 
 
@@ -578,6 +650,13 @@ footer
 		display: block;
 		margin-top: 50px;
 		margin-bottom: 20px;
+	}
+
+	.portfolio-story
+	{
+		margin-top: 60px;
+		margin-bottom: 60px;
+		padding: 5px;
 	}
 
 

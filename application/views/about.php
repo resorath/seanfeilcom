@@ -18,7 +18,7 @@
 
         <p>I make websites that are highly usable. Usable websites are intuitive to the user, straightforward to browse, and makes difficult tasks obvious. User experience design is the social side of software development.</p>
 
-        <p class="cta-link"><a href="<?=base_url() ?>portfolio">Web portfolio</a></p>
+        <p class="cta-link"><a href="<?=base_url() ?>portfolio">Portfolio</a></p>
 
 
         <h2>Project management</h2>

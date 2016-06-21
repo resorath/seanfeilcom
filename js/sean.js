@@ -13,13 +13,6 @@ $('#navhamburger').click(function(){
 
 });
 
-if($('#portfolio-masonry').length > 0)
-{
-	$('#portfolio-masonry').masonry({
-		itemSelector : '.portfolio-item',
-		columnWidth: 0
-	});
-}
 
 $('#contactform').submit(function(e) {
 
@@ -213,8 +206,25 @@ $('.skillcontainer').click(function() {
     window.setTimeout(function() {
         $('#skillsupportcontainerid').addClass('skillsupportcontainerballoon');
         $('#skillsupportcontainerid').html($("div[data-contentid='" + clicked.data("circlename") + "']").html());
-    }, 500)
+    }, 500);
     //circles[clicked.data("circlename")].animate(0, function() {
+
+});
+
+$('.skilldatacloser').click(function() {
+
+    alert('click');
+
+    $('#skillsupportcontainerid').removeClass('skillsupportcontainerballoon');
+    $('#skillsupportcontainerid').html('');
+
+    window.setTimeout(function() {
+        $('.skillcontainer').each(function() {
+            $(this).css('opacity', 100);
+        });
+
+    }, 500);
+
 
 });
 

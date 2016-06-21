@@ -105,7 +105,20 @@
 </div>
 
 <div class="skilldatafodder" data-contentid="java">
+	<div class="skilldatacloser">X</div>
+
 	<h1>Java experience</h1>
 
-	<p>blah blah blah</p>
+	<p>Java was the first major object-orientated language I learned, and the language I used for my first project at the University of Calgary - developing Blackboard building blocks for the Blackboard learning management system.
+		Since then, I have used Java to develop against major infrastructure applications that handle hundreds of requests per minute.</p>
+
+	<div class="skillleader">Some projects I've used Java in (developed, contributed to, or developed against):</div>
+	<ul>
+		<li><a href="https://cas.ucalgary.ca/cas/" target="_ext">Central Authentication Service</a> (University of Calgary customization)</li>
+		<li><a href="http://www.ucalgary.ca/itutil" target="_ext">University of Calgary's IT Utilities</a> (contributed)</li>
+		<li><a href="http://activemq.apache.org/" target="_ext">Apache ActiveMQ (bugfixes)</a></li>
+		<li>Blackboard LMS (as building blocks)</li>
+		<li>Virtual LDAP (University of Calgary extension of OpenLDAP software)</li>
+	</ul>
+
 </div>
