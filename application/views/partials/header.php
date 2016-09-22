@@ -55,9 +55,9 @@
       <ul>
         <li><a href="<?=base_url() ?>">Sean</a></li>
         <li><a href="<?=base_url() ?>portfolio">Portfolio</a></li>
-        <li><a href="<?=base_url() ?>skills">Technologies</a></li>
+        <li><a href="<?=base_url() ?>skills">Skills and Technologies</a></li>
         <li><a href="<?=base_url() ?>resume">Resume</a></li>
-        <li><a href="<?=base_url() ?>photography">Photography</a></li>
+        <!--<li><a href="<?=base_url() ?>photography">Photography</a></li>-->
         <li><a href="http://blog.seanfeil.com">Blog</a></li>
         <li><a href="<?=base_url() ?>contact">Contact</a></li>
       </ul>

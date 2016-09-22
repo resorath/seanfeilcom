@@ -24,7 +24,7 @@
 
           <div class="row">
             <div class="col-sm-9">
-              <p class="resume-title">Identity and Access Management Systems Analyst</p>
+              <p class="resume-title">Software Developer, Identity and Access Management</p>
             </div>
 
             <div class="col-sm-3">
@@ -35,10 +35,13 @@
           <p class="resume-location">University of Calgary, Calgary AB</p>
 
           <ul>
-            <li>Technical lead for password standards implementation project; duties involved managing the responsibilities of the technical team, communicating technical challenges to the user base, and creating a technical project plan to supplement the overarching project plan.</li>
-            <li>Identify training and access inconsistencies and gaps in the Support Centre’s access provisioning team, and provide and execute a plan to homogenize access and knowledge to identity and access systems. </li>
-            <li>Drive the identity and access architecture roadmap with collaboration from the enterprise systems planning team.</li>
-            <li>Collaborated with counterparts at the University of Alberta on their identity management strategies.</li>
+            <li>Responsible for development and operational support of the University of Calgary’s Identity and Access Management (IAM) infrastructure which handle over 3 million logins per day.</li>
+            <li>Implement, improve, and map out future activities for directory services, authentication services, and user account life cycle for over 45,000 accounts.</li>
+            <li>Provide technical leadership for numerous large IT projects and programs related to identity, access management and security. </li>
+            <li>Implemented Elasticstack which currently handles over four million log lines per hour in a scalable architecture.</li>
+            <li>Designed and implemented Shibboleth IdP which connects the University to a global federated identity infrastructure.</li>
+            <li>Created various tools to simplify user-facing and help desk-facing directory services such as password.ucalgary.ca in C#.</li>
+            <li>Drive processes and provide support for help desk and access provisioning teams in their support of client IAM needs.</li>
           </ul>
         </div>
 
@@ -77,13 +80,10 @@
           <p class="resume-location">University of Calgary, Calgary AB</p>
 
           <ul>
-            <li>Currently acting as a project manager and business analyst for applications internal and external to development teams.</li>
-            <li>Implemented TELUS Frontline CRM for Integrated Service Centre team as a replacement to existing BMC Remedy. Working closely with TELUS counterparts, configured the product to business specifications and integrated the product into the University’s infrastructure; such as a seamless transition with BMC Remedy incidents, synchronization with contact records in PeopleSoft and exporting data to Tableau metrics reporting.</li>
-            <li>Implemented Atlas ARES copyright management suite, including integration with Blackboard learning management system and other University infrastructure. Coordinated with key business representatives from the Library and Copyright Office to ensure product was configured and operated under their existing workflow. </li>
-            <li>Planned migration of all custom .NET applications and their SQL Server databases under the ADDS portfolio to new more modern environments.</li>
-            <li>Ran a project to replace the job profile database used by Human Resources with a custom .NET solution provided by ADDS development team members. This project included all tasks from gathering requirements; maintaining a close relationship with the business to adapt to changing circumstances and execution of the implementation, including quality assurance and user acceptance testing.</li>
-            <li>Executed a number of minor projects and acted as a substitute project manager for a number of larger projects when necessary.</li>
-            <li>Acting as a mentor to ADDS software developers, with oversight over all ongoing operations. </li>
+            <li>Project manager for implementing a number of complex solutions internal and external to development teams.</li>
+            <li>Lead software teams to develop new solutions to meet business needs and proactive infrastructure upgrades.</li>
+            <li>Provided project and technical management for implementing the TELUS Frontline CRM tool for the Integrated Service Centre, including transition and implementation support. This allowed HR, Research Accounting, and Supply Chain Management to handle significantly more clients at a help desk level.</li>
+            <li>Project managed the implementation of the ARES copyright management system for the library, creating a conduit to authorize thousands of copyright transactions per month.</li>
           </ul>
         </div>
 
@@ -128,15 +128,10 @@
           <p class="resume-location">University of Calgary, Calgary AB</p>
 
           <ul>
-            <li>Contributed to and maintained open source and proprietary applications that supported core University web infrastructure, acting as a software developer and server administrator.</li>
-            <li>Enhanced and supported the Central Authentication Service used by most key applications on campus, including supporting business units who implemented the CAS protocol and the client software necessary for their integration. Enhancements were comprised of adding authentication schemes, a variety of service validation points to meet client needs, core bug and vulnerability fixes, and stability improvements. </li>
-            <li>Ensured the smooth operation of the LDAP authentication and directory services infrastructure by maintaining the openLDAP and custom built VirtualLDAP applications.</li>
-            <li>Supported the RSA SecurID two-factor authentication used by the University. These duties included upgrading from version 6 to 7, migration of the application to more modern operating systems and maintaining the client applications dependent on two-factor authentication.</li>
-            <li>Developed a number of custom add-ons (building blocks) for the BlackBoard learning management system. These add-ons include a large media (video, audio and high resolution images) management system; which can transform media to a web friendly format and make the media available to specific courses. Other building blocks included exporting grades to PeopleSoft and course linking. </li>
-            <li>Designed, developed and implemented an open-source two-factor alternative based on Yubico’s Yubikey technology. This full stack implementation included a web service API for secure authentication calls, desktop application for configuring hardware tokens and an administrative suite for managing the system.</li>
-            <li>Setup, maintained and encouraged adoption of the Apache ActiveMQ message queuing application. This open source alternative was adopted for numerous applications relying on IBM WebSphere, as well as new development. The key advantages were significant cost savings, community support and product customization.</li>
-            <li>Numerous other smaller projects across a number of technologies around integration, automation and easing complex business processes.</li>
-
+            <li>Supported and improved IT's open source and proprietary applications that support the backbone of the University's web infrastructure, acting as a software developer and server administrator.</li>
+            <li>On-boarded dozens of campus web applications internal and external to IT to the Central Authentication System, improving user experience, directory abstraction, and account security. </li>
+            <li>Enhanced and supported the core identity infrastructure provided by IT, including single sign-on, directory services, and two-factor authentication. This included a custom implementation of the Yubikey implementation as an alternative two-factor model.</li>
+            <li>Supported the infrastructure and customization of the University's implementation of the BlackBoard learning management system, including building a custom video hosting solution for managed, private classroom videos. </li>
 
           </ul>
 
