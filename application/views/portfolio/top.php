@@ -67,6 +67,63 @@
 				</button>
 			</div>
 
+			<div class="portfolio-item row">
+				<div class="portfolio-descriptor">
+					Blog posts
+				</div>
+				<div class="portfolio-category">
+					Some other things I've done in blog form
+				</div>
+				<div class="portfolio-subitem col-sm-4">
+					<div class="portfolio-feature-image">
+					</div>
+					<div class="portfolio-descriptor">
+						Federated identity at the UofC
+					</div>
+					<button class="portfolio-readmore btn btn-lg btn-block">
+						Read more
+					</button>
+
+				</div>
+
+				<div class="portfolio-subitem col-sm-4">
+					<div class="portfolio-feature-image">
+					</div>
+					<div class="portfolio-descriptor">
+						A brief history of passwords
+					</div>
+					<button class="portfolio-readmore btn btn-lg btn-block">
+						Read more
+					</button>
+
+				</div>
+
+				<div class="portfolio-subitem col-sm-4">
+					<div class="portfolio-feature-image">
+					</div>
+					<div class="portfolio-descriptor">
+						Stardrive JS
+					</div>
+					<button class="portfolio-readmore btn btn-lg btn-block">
+						Read more
+					</button>
+
+				</div>
+
+				<div class="portfolio-subitem col-sm-4">
+					<div class="portfolio-feature-image">
+					</div>
+					<div class="portfolio-descriptor">
+						Blackhole
+					</div>
+					<button class="portfolio-readmore btn btn-lg btn-block">
+						Read more
+					</button>
+
+				</div>
+
+			</div>
+
 		</div>
 	</div>
 </main>

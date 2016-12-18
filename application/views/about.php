@@ -10,7 +10,7 @@
 
         <h2>Full-stack developer</h2>
 
-        <p>I'm primarily a web software developer. This means I'm very good at writing powerful, mobile-first websites that do lots of things. Full-stack means I'm comfortable with infrastructure, data, back-end technologies, and user interfaces. There is a good blog post about it <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">here</a>.</p>
+        <p>I'm primarily a web software developer. This means I'm very good at writing enterprise grade, mobile-first websites that do lots of things. Full-stack means I'm comfortable with infrastructure, data, back-end technologies, and user interfaces. There is a good blog post about it <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">here</a>.</p>
 
 
         <h2>User experience</h2>

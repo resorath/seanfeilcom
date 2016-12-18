@@ -322,6 +322,13 @@ footer
 	margin-top: 80px;
 }
 
+#printer-friendly-notice
+{
+	color: #555555;
+	margin-top: 40px;
+	text-align: center;
+}
+
 #bottomspacer
 {
 	margin-top: 40px;
@@ -351,6 +358,16 @@ footer
 	display: inline-block;
 	width: 100%;
 	margin-top: 80px;
+}
+
+.portfolio-story p
+{
+	margin-bottom: 50px;
+}
+
+.portfolio-subitem
+{
+	margin-top: 60px;
 }
 
 .portfolio-feature-image
@@ -659,5 +676,24 @@ footer
 		padding: 5px;
 	}
 
+
+}
+
+@media print {
+
+	#topbar
+	{
+		display: none !important;
+	}
+
+	#menu
+	{
+		display: none !important;
+	}
+
+	#printer-friendly-notice
+	{
+		display: none;
+	}
 
 }

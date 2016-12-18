@@ -13,6 +13,11 @@ class Portfolio extends CI_Controller {
 		$this->load->template('portfolio/activeliving');
 	}
 
+	public function benefit()
+	{
+		$this->load->template('portfolio/benefit');
+	}
+
 
 }
 

@@ -102,13 +102,11 @@
           <p class="resume-location">University of Calgary, Calgary AB</p>
 
           <ul>
-            <li>Developed custom web solutions primarily in .NET working individually or in small groups.</li>
-            <li>Designed and implemented a complete overhaul of the UofC Active Living’s program and event registration system. This solution involved close relationship with the business to redesign their data model, provide a modern user interface through numerous user experience testing sessions and a robust and intuitive administration system for their staff. Finally, I ran multiple training sessions to familiarize the staff with our tag-based data model.</li> 
-            <li>Additionally for Active Living, redesigned their public authentication system across all their applications. As well, implemented a voucher and discount addition to their existing administrative backend to allow the business to offer advertising incentives to their customer base.</li>
-            <li>Implemented a new solution to replace an aging Cold Fusion-based application for Risk Management. This solution allows motor vehicle driver’s working for the University to register themselves. The solution also includes a complete workflow and auditing system to risk management staff and department approvers. </li>
-            <li>Contributed to the project which moved over 2000 Drupal 5 enabled websites to the new Drupal 7 infrastructure. This included setting up the server environment, writing automation scripts for use by the Web Content Management client services team and coordinate with University Relations group to coordinate efforts.</li>
-            <li>Contributed changes to numerous .NET applications including IT Software Management, UPASS distribution management and other internal applications to meet updated business requirements.</li>
-            <li>Continued oversight and upkeep of open source applications such as CAS, ActiveMQ, VirtualLDAP and others from previous role. </li>
+            <li>Developed large scale custom solutions in C# .NET working in small software teams.</li>
+            <li>Created the new Active Living public course registration system, bringing in thousands of clients a month. The new design incorporated a brand new information architecture of over 200 programs, a new navigation, registration workflow, and administrative back-end. Numerous improvements to their core management software which provides the backbone of the Active Living business was also developed.</li>
+            <li>Built a new multi-module risk management web application to handle various public-facing business facets, replacing an aging cold-fusion based solution.</li>
+            <li>Improved the UPASS client application with advanced cheat-detecting heuristics.</li>
+            <li>Created numerous automation scripts to migrate over 200 Drupal 5 websites to Drupal 7.</li>
           </ul>
 
         </div>
@@ -206,23 +204,51 @@
 
         </div>
 
+        <div id="ux">
+
+          <p class="resume-education-leader">User Experience</p>
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">User Experience Design - University of Calgary Continuing Education, Calgary AB</p>
+            </div>
+
+            <div class="col-sm-3">
+              <p class="resume-date">January - April 2016</p>
+            </div>
+          </div>
+
+        </div>
+
         <div id="pm">
 
           <p class="resume-education-leader">Project Management</p>
           <div class="row">
             <div class="col-sm-9">
               <p class="resume-education-title">Project Professional and Server - Avalon Training Group, Calgary AB</p>
-              <p class="resume-education-title">Project Management Level 1 - University of Calgary Continuing Education, Calgary AB</p>
-              <p class="resume-education-title">Project Management Level 2 - University of Calgary Continuing Education, Calgary AB</p>
             </div>
-
             <div class="col-sm-3">
               <p class="resume-date">April 2013</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">Project Management Level 1 - University of Calgary Continuing Education, Calgary AB</p>
+            </div>
+            <div class="col-sm-3">
               <p class="resume-date">March 2014</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-9">
+               <p class="resume-education-title">Project Management Level 2 - University of Calgary Continuing Education, Calgary AB</p>
+            </div>
+            <div class="col-sm-3">
               <p class="resume-date">October 2015</p>
             </div>
           </div>
-          
+
         </div>
 
         <div id="ps">
@@ -256,7 +282,47 @@
 
         </div>
 
+        <div id="onlinecourses">
+          <p class="resume-education-leader">Online courses (miscellaneous dates)</p>
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">Up and running with Laravel - Lynda.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">Drupal Module Development - Lynda.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">Simplified Drupal Sites with Drush - Lynda.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">Drupal 7 Advanced Training - Lynda.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-9">
+              <p class="resume-education-title">Learning python the hard way</p>
+            </div>
+          </div>
+
+
+        </div>
+
 
       </div>
+
+      <aside id="printer-friendly-notice">
+        <p>(This page is printer friendly)</p>
+      </aside>
 
       <div id="bottomspacer"></div>
