@@ -28,7 +28,7 @@
 				<div class="portfolio-category">
 					Launch of a new personal training business
 				</div>
-				<button class="portfolio-readmore btn btn-lg btn-block">
+				<button class="portfolio-readmore btn btn-lg btn-block" onclick='location.href="<?=base_url() ?>portfolio/benefit"'>
 					Read the use case
 				</button>
 
@@ -46,7 +46,7 @@
 				<div class="portfolio-category">
 					Home grown solution to simplify a complex security infrastructure
 				</div>
-				<button class="portfolio-readmore btn btn-lg btn-block">
+				<button class="portfolio-readmore btn btn-lg btn-block" onclick='location.href="<?=base_url() ?>portfolio/passwordmanagement"'>
 					Read the use case
 				</button>
 			</div>

@@ -18,6 +18,16 @@ class Portfolio extends CI_Controller {
 		$this->load->template('portfolio/benefit');
 	}
 
+	public function passwordmanagement()
+	{
+		$this->load->template('portfolio/passwordmanagement');
+	}
+
+	public function canvol()
+	{
+		$this->load->template('portfolio/canvol');
+	}
+
 
 }
 

@@ -24,7 +24,7 @@
 				<div class="portfolio-inline-img">
 					<img src="<?=base_url() ?>content/portfolio/benefit-store.jpg">
 					<p class="portfolio-inline-img-caption">
-						The beneFIT store was organized as a course catalog with large attractive images. 
+						The beneFIT store was organized as a course catalog wtih large attractive images. 
 					</p>
 				</div>
 

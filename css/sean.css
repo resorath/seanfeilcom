@@ -362,7 +362,7 @@ footer
 
 .portfolio-story p
 {
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
 
 .portfolio-subitem
@@ -381,7 +381,9 @@ footer
 	
 	margin-top: 60px;
 	margin-bottom: 60px;
+
 }
+
 
 .portfolio-inline-img img
 {
@@ -389,6 +391,21 @@ footer
 	max-width: 1800px;
 	margin: 0 auto;
 }
+
+.portfolio-nostretch-img
+{
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 100%;
+
+}
+
+.portfolio-nostretch-img img
+{
+	margin: 0 auto;
+	display: block;
+}
+
 
 .portfolio-inline-img-caption
 {
