@@ -62,7 +62,7 @@
 				<div class="portfolio-category">
 					Result of a instructed course on web design
 				</div>
-				<button class="portfolio-readmore btn btn-lg btn-block">
+				<button class="portfolio-readmore btn btn-lg btn-block" onclick='location.href="<?=base_url() ?>portfolio/canvol"'>
 					Read the use case
 				</button>
 			</div>
