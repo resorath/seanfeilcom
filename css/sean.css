@@ -525,13 +525,40 @@ footer
 
 #skills section
 {
-	min-height: 100vh;
-
 	margin-top: 50px;
 }
 
-#skills section h1
+#skills section h2
 {
+	font-size: 1.4em;
+	margin-bottom: 50px;
+}
+
+.skillbox
+{
+	-webkit-box-shadow: 5px 5px 16px -3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 16px -3px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 16px -3px rgba(0,0,0,0.5);
+	width: 100%;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.skillbox h3
+{
+
+}
+
+.skillbox ul
+{
+	display: block;
+}
+
+.skillbox li
+{
+	text-align: left;
+	list-style: none;
+
 }
 
 #scrollspy-psuedodiv
