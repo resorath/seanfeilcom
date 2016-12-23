@@ -90,7 +90,7 @@ function validateForm(name, fields)
   return true;
 }
 
-/* Skills circles */
+/* Skills circles 
 var stroke = 5;
 var trail = 2;
 var duration = 1500;
@@ -227,7 +227,7 @@ $('.skilldatacloser').click(function() {
 
 
 });
-
+*/
 /* * * * * */
 
 jQuery.fn.shake = function(intShakes, intDistance, intDuration) {
