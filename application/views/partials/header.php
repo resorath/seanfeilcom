@@ -21,7 +21,7 @@
   <body<?php if($this->uri->segment(1) == "skills") { echo(" data-spy=\"scroll\" data-offset=\"150\""); } ?>>
     <header id="topbar">
       <p id="name"><a href="<?=base_url() ?>about">Sean Feil</a></p>
-      <div id="navhamburger">
+      <div id="navhamburger" class="togglemenu">
           <svg viewBox="0 0 800 600">
             <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
             <path d="M300,320 L540,320" id="middle"></path>

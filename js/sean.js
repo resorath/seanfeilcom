@@ -1,4 +1,4 @@
-$('#navhamburger').click(function(){
+$('.togglemenu').click(function(){
 	if($('#menu').hasClass('nav-visible'))
 	{
 		$('#menu').removeClass('nav-visible').addClass('nav-hidden');

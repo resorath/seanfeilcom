@@ -523,9 +523,14 @@ footer
 	margin-top: 20px;
 }
 
+#skills
+{
+	margin-bottom: 50px;
+}
+
 #skills section
 {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 #skills section h2
@@ -559,6 +564,11 @@ footer
 	text-align: left;
 	list-style: none;
 
+}
+
+#skills .row
+{
+	margin-top: 50px;
 }
 
 #scrollspy-psuedodiv
@@ -718,6 +728,11 @@ footer
 		margin-top: 60px;
 		margin-bottom: 60px;
 		padding: 5px;
+	}
+
+	#skills .row
+	{
+		margin-top: 20px;
 	}
 
 

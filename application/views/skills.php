@@ -3,7 +3,7 @@
 	<div class="container center-headers container-topadjust">
 		<h1>Skills and proficiencies</h1>
 		<section id="skillsexplination">
-			<p>A bunch of skills and proficiencies I have which can be checked off an HR checklist. Click a skill to get a brief example of what I've done with it.</p>
+			<p>A bunch of skills and proficiencies I have which can be checked off an HR checklist.</p>
 
 		</section>
 		<section id="codeskills">
@@ -169,7 +169,7 @@
 
 		<section id="Technologyconcepts">
 
-			<h2>Applications</h2>
+			<h2>Identity and Access Management</h2>
 			<div class="row">
 				<div class="col-sm-4">
 					<div class="skillbox">
@@ -200,7 +200,10 @@
 					</div>
 				</div>
 			</div>
+		</section>
 
+		<section>
+			<h2>Enhancements and administration</h2>
 
 			<div class="row">
 				<div class="col-sm-4">
@@ -313,6 +316,9 @@
 							<li>Emacs</li>
 							<li>VIM</li>
 							<li>Scrivener</li>
+							<li>Eclipse</li>
+							<li>Visual Studio</li>
+							<li>Balsamiq Mockups</li>
 						</ul>
 					</div>
 				</div>

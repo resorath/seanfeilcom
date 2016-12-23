@@ -66,7 +66,7 @@
 					Read the use case
 				</button>
 			</div>
-
+<!--
 			<div class="portfolio-item row">
 				<div class="portfolio-descriptor">
 					Blog posts
@@ -123,6 +123,7 @@
 				</div>
 
 			</div>
+		-->
 
 		</div>
 	</div>

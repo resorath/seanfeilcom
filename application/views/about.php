@@ -6,11 +6,11 @@
 
         <h1>Hi, I'm Sean</h1>
 
-        <p>I'm a software developer, specializing in creating web applications. I've been interested in writing software since elementary school, and I wrote my first web page in grade 5. It was about Star Wars.</p>
+        <p>I'm a software developer, specializing in creating web applications. I've been interested in writing software since elementary school, and I wrote my first web page in grade 5. It was about Star Wars. I also know a few things about Identity and Access Management.</p>
 
         <h2>Full-stack developer</h2>
 
-        <p>I'm primarily a web software developer. This means I'm very good at writing enterprise grade, mobile-first websites that do lots of things. Full-stack means I'm comfortable with infrastructure, data, back-end technologies, and user interfaces. There is a good blog post about it <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">here</a>.</p>
+        <p>I'm a web software developer. This means I'm very good at writing enterprise grade, mobile-first websites that do lots of things. Full-stack means I'm comfortable with infrastructure, data, back-end technologies, and user interfaces. There is a good blog post about it <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">here</a>.</p>
 
 
         <h2>User experience</h2>
@@ -19,16 +19,22 @@
 
 
 
+        <h2>Identity and Access Management</h2>
+
+        <p>I have nearly a decade of experience with enterprise-grade Identity and Access Management (IAM) systems. I have seen the progression from simple directory services to complex cloud-based identity management solutions. I hope one day to see the death of passwords as a form of authorization.</h2>
+
+
         <h2>Project management</h2>
 
         <p>I also do agile project management as it relates to software projects. That makes collaboration much easier when large problems can be organized and divided into smaller ones. I encourage teams to work better together with modern development tools, and connect developers to the business.</p>
-
 
 
         <h2>Teaching</h2>
 
         <p>I like teaching web and software development. I have taught in a classroom as an instructor and as a private tutor.</p>
 
+
+        <p><a href="javascript:void(0);" class="togglemenu">Take a look around.</a></p>
 
       </div>
 
