@@ -11,12 +11,12 @@
 
 			<div class="form-group spacious-form-group">
 				<label for="fromname">Your name</label>
-				<input type="text" class="form-control" id="fromname" name="fromname" placeholder="Name (and company if you like)" required>
+				<input type="text" class="form-control" id="fromname" name="fromname" placeholder="Name (and company if you like)" autocomplete="off" required>
 			</div>
 
 			<div class="form-group spacious-form-group">
 				<label for="frommail">Your e-mail address</label>
-				<input type="email" class="form-control" id="frommail" name="frommail" placeholder="E-mail address" required>
+				<input type="email" class="form-control" id="frommail" name="frommail" placeholder="E-mail address" autocomplete="off" required>
 			</div>
 
 			<div class="form-group spacious-form-group sdoffset">
