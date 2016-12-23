@@ -50,6 +50,7 @@ $('#contactform').submit(function(e) {
 			}
 			else
 			{
+                console.log(data);
 				$('#sendalert').show();
 				$('#sendbutton').removeAttr('disabled').html("Send!");
 			}
