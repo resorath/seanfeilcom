@@ -20,10 +20,10 @@ class Contact extends CI_Controller {
 			$payload["message"] == "")
 			die("missing");
 
-		$this->email->from($payload['frommail'], $payload['fromname']);
-		$this->email->to('hidemyemailfromgithub'); 
+		$this->email->from("robot@seanfeil.com");
+		$this->email->to('sean@seanfeil.com'); 
 
-		$this->email->subject('Message from seanfeil.com');
+		$this->email->subject('Message from ' . $payload['frommail'] . ' ' . $payload['fromname']) . ' via seanfeil.com');
 		$this->email->message($payload["message"]);	
 
 		if(@$this->email->send())
