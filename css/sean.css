@@ -347,6 +347,11 @@ footer
 	background-color: #FFFFFF;
 }
 
+#portfolio-masonry
+{
+	padding-top: 30px;
+}
+
 #portfolio-container
 {
 	padding-bottom: 40px;

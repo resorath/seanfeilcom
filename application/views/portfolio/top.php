@@ -4,6 +4,21 @@
 
 			<div class="portfolio-item">
 				<div class="portfolio-feature-image">
+					<img src="<?=base_url() ?>content/portfolio/sso.png">
+				</div>
+				<div class="portfolio-descriptor">
+					University of Calgary Single Sign-on Architecture
+				</div>
+				<div class="portfolio-category">
+					The modern single sign-on authentication architecture designed for the University of Calgary.
+				</div>
+				<button class="portfolio-readmore btn btn-lg btn-block" onclick='location.href="<?=base_url() ?>portfolio/sso"'>
+					Read the use case
+				</button>
+			</div>
+
+			<div class="portfolio-item">
+				<div class="portfolio-feature-image">
 					<img src="<?=base_url() ?>content/portfolio/activeliving-perspective.png">
 				</div>
 				<div class="portfolio-descriptor">

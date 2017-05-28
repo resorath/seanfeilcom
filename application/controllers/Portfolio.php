@@ -8,6 +8,11 @@ class Portfolio extends CI_Controller {
 		$this->load->template('portfolio/top');
 	}
 
+	public function sso()
+	{
+		$this->load->template('portfolio/sso');
+	}
+
 	public function activeliving()
 	{
 		$this->load->template('portfolio/activeliving');
