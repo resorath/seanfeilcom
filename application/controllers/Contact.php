@@ -23,7 +23,7 @@ class Contact extends CI_Controller {
 		$this->email->from("robot@seanfeil.com");
 		$this->email->to('sean@seanfeil.com'); 
 
-		$this->email->subject('Message from ' . $payload['frommail'] . ' ' . $payload['fromname']) . ' via seanfeil.com');
+		$this->email->subject('Message from ' . $payload['frommail'] . ' ' . $payload['fromname'] . ' via seanfeil.com');
 		$this->email->message($payload["message"]);	
 
 		if(@$this->email->send())
